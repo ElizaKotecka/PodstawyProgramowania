@@ -4,15 +4,20 @@
 # and two numbers. The program should perform the appropriate
 # mathematical operation on the given numbers and return the result.   
 # 
-# number1 = input ...
-# number2 = input ...
-# operator = input ...
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
+operator = input("Enter symbol of mathematical operation (+, -, *, /): ")
 
-# if operator == ...:
-#     result = ...
-# elif ...
-# ...
-# ...
+if operator == "+":
+    result = number1 + number2
+elif operator == "-":
+    result = number1 - number2
+elif operator == "*":
+    result = number1 * number2
+elif operator == "/":
+    result = number1 / number2
+else:
+    print("Wrong operator!")
 
-# # print result
-# print(f'{number1} {operator} {number2} = {result}')
+# print result
+print(f'{number1} {operator} {number2} = {result}')
