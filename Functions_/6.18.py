@@ -1,13 +1,7 @@
 # Returns a sentence with spaces removed.
 
-def f(sentence):
-    sentence_without_spaces = ""
-    for char in sentence:
-        if char == ' ':
-            continue
-        else:
-            sentence_without_spaces += char
-    return sentence_without_spaces
+def f(sentence: str):
+    return sentence.replace(" ", "")
 
 if __name__ == '__main__':
     print(f('integrated development environment'))
