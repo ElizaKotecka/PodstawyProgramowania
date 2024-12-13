@@ -7,7 +7,7 @@ y = []
 
 # create x values
 for n in range(-100,101):
-   x = x + [n]
+   x.append(n)
 
 # create y values
 for i in x:

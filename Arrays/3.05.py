@@ -9,6 +9,8 @@ sum = 0
 for i in arr:
     sum += i
     print(i, end=' ')
+    
 print()
+
 mean = sum / len(arr)
 print(f'Arithmetic mean: {mean:.2f}')  

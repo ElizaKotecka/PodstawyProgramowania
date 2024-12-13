@@ -6,4 +6,4 @@ shopping_list = [
    "tomatoes", "potatoes", "carrots", "onions", "garlic"
 ]
 for item in shopping_list:
-   print(item, end= '\n')
+   print(item)

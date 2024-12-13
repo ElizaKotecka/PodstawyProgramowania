@@ -13,9 +13,9 @@ for row in arr:
     print()
 
 print('Columns: ')
-for col in range(len(arr[0])):
-    for elem in arr:
-        print(elem[col], end= ' ')    
+for col in range(len(arr[0])): #len(arr[0]) jaka długośc wiersza
+    for row in arr:
+        print(row[col], end= ' ')    
     print()
 
 

@@ -16,7 +16,8 @@ def occurs(number, array):
         return False
 
 array = [15, 38, 7, 23, 14]
-number = int(input("Number: "))
+number = int(input("Enter number: "))
+
 print("Array: ", array)
 if occurs(number, array):
     print("Result: number", number, "appears in the array")

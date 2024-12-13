@@ -11,4 +11,5 @@ for i in arr:
         max = i
     if i < min:
         min = i
+        
 print(f"Max: {max}, Min: {min}")

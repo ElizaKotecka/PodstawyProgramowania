@@ -11,13 +11,10 @@
 
 def identity_matrix(n):
     matrix = []
-    for i in range(n):
+    for row_nb in range(n):
         row = []
-        for j in range(n):
-            if i == j:
-                row.append(1)
-            else:
-                row.append(0)
+        for col_nb in range(n):
+            row.append(1 if row_nb == col_nb else 0)
         matrix.append(row)
     return matrix
 

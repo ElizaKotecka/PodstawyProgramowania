@@ -15,7 +15,7 @@ meal_plan = [
 def weekday(n):
     weekdays = ["Monday", "Tuesday", "Wednesday",
       "Thursday", "Friday", "Saturday", "Sunday"]
-    return weekdays[n-1]
+    return weekdays[n]
 
 # Returns a string with day meal names
 # separated by comma

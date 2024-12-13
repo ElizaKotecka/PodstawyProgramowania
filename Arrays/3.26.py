@@ -6,9 +6,10 @@ import numpy as np
 
 x = [i for i in range(0,361)]
 y = []
+x_radians = [np.radians(i) for i in x] #convert from deegrees to radians
 
-for i in range(len(x)):
-    y.append(np.sin(np.radians(x[i]))) #from deegrees to radiants
+for i in x_radians:
+    y.append(np.sin(i))
     
 plt.plot(x,y)
 plt.show()

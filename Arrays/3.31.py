@@ -16,8 +16,8 @@ min_col = 0
 max_row = 0
 max_col = 0
 
-for i in range(len(arr)):  # Loop over rows
-    for j in range(len(arr[i])):  # Loop over columns
+for i in range(len(arr)):  # Loop over rows (in column)
+    for j in range(len(arr[i])):  # Loop over elem in row
         if arr[i][j] < min_val:
             min_val = arr[i][j]
             min_row = i

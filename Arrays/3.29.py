@@ -6,7 +6,7 @@
 
 def create_2d_arr(x,y):
     arr = []
-    for i in range(x):
+    for _ in range(x): #doda wiersze
         arr.append([0]*y)
     return arr
 

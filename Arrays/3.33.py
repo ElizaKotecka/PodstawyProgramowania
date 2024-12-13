@@ -13,7 +13,7 @@ for row in arr:
     print(row)
 
 for row in arr:
-    row[0], row[4] = row[4], row[0]
+    row[0], row[-1] = row[-1], row[0]
 
 print('After changes:')
 for row in arr:

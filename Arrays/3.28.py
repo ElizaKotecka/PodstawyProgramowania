@@ -15,5 +15,5 @@ array = [
 
 sum = 0
 for i in range(len(array)):
-    sum += array[i][4]
+    sum += array[i][-1]
 print(sum)

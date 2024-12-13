@@ -25,14 +25,14 @@ def main():
     arr8 = [3,2]
 
     print(f'Array1: ', end= '')
-    for elem in range(len(arr7)):
-        print(f'{arr7[elem]}', end = ' ')
+    for elem in arr7:
+        print(f'{elem}', end = ' ')
 
     print()
 
     print(f'Array2: ', end= '')
-    for elem in range(len(arr8)):
-        print(f'{arr8[elem]}', end = ' ')
+    for elem in arr8:
+        print(f'{elem}', end = ' ')
     
     print()
 

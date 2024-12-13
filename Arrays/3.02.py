@@ -11,7 +11,7 @@ reversed = array[::-1]
 print("existed array: ", end="")
 for i in array:
     print(i, end=" ")
-
+    
 print()
 
 print("reverse array: ", end="")

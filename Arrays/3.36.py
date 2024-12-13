@@ -27,12 +27,17 @@ print('1D array 1:')
 print(convert_to_1d(mat1))
 print()
 
+
+
 print('Matrix 2:')
 print_matrix(mat2)
 
 print('1D array 2:')
 print(convert_to_1d(mat2))
 print()
+
+
+
 
 print('Matrix 3:')
 print_matrix(mat3)
