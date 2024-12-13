@@ -1,18 +1,13 @@
 def file_details(file_name):
     try:
         with open(file_name, 'r') as file:
-            lines = file.readlines()
+            txt = file.read()
             
-            num_lines = len(lines)
+            num_lines = len(txt.splitlines())
 
-            num_chars = 0
-            for line in lines:
-                num_chars += len(line)
+            num_chars = len(txt) #with enters
             
-            num_words = 0
-            for line in lines:
-                words = line.split()
-                num_words += len(words)
+            num_words = len(txt.split())
             
             return num_lines, num_chars, num_words
             

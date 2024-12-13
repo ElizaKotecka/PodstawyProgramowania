@@ -8,17 +8,17 @@ def read_books_from_csv(filename):
             books.append(row)
     return books
 
+def write_books_to_file(filename, books):
+    with open(filename, 'w') as file:
+        for book in books:
+            file.write(f"{book['Title']},{book['Author']},{book['Genre']},{book['Year']}\n")
+
 def filter_books_by_genre(books, genre):
     filtered_books = []
     for book in books:
         if book['Genre'] == genre:
             filtered_books.append(book)
     return filtered_books
-
-def write_books_to_file(filename, books):
-    with open(filename, 'w') as file:
-        for book in books:
-            file.write(f"{book['Title']},{book['Author']},{book['Genre']},{book['Year']}\n")
 
 # Function to process books by genre
 def process_books_by_genre():

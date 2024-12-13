@@ -1,6 +1,6 @@
 import re
 
-pattern = r'\.[a-zA-Z]{4}$'
+pattern = r'\.[a-zA-Z0-9]{4}$'
 
 try:
     with open('files.txt', 'r') as file:

@@ -1,5 +1,9 @@
 ###
 # Checks the correctness of username and password
+# username is at least 6 characters long
+# username contains only lowercase letters
+# password is at least 8 characters long
+# password contains only letters (lowercase and uppercase), numbers, and the underscore character
 
 import re
 

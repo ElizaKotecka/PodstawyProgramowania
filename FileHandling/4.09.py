@@ -8,7 +8,7 @@ try:
         print("GRAPHIC DESIGNERS")
         print("=================")
         
-        for row in reader:
+        for row in reader: #row to dict
             if row['Job Title'] == 'Graphic Designer':
                 print(f"{row['First Name']} {row['Last Name']},{row['Email']}")
 
