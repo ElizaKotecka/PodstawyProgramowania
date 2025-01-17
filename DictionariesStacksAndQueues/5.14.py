@@ -18,7 +18,7 @@ def customer_service():
             ticket_number += 1
 
         elif choice == "2":
-            if line.qsize() > 1:
+            if not line.empty():
                 next_customer = line.get()
                 print(f"\nServing customer with ticket #{next_customer}.")
             else:
